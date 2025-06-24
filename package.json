@@ -1,0 +1,25 @@
+{
+  "name": "code-challenges",
+  "version": "1.0.0",
+  "description": "Local environment for practicing JS/TS coding challenges",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "new": "ts-node scripts/new-challenge.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.1.0",
+    "eslint-plugin-unused-imports": "^4.0.0",
+    "prettier": "^3.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "vitest": "^3.2.4"
+  }
+}
